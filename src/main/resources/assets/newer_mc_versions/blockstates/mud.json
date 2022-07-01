@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "newer_mc_versions:block/mud"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "newer_mc_versions:blocks/mud",
+    "up": "newer_mc_versions:blocks/mud",
+    "north": "newer_mc_versions:blocks/mud",
+    "east": "newer_mc_versions:blocks/mud",
+    "south": "newer_mc_versions:blocks/mud",
+    "west": "newer_mc_versions:blocks/mud",
+    "particle": "newer_mc_versions:blocks/mud"
+  }
+}

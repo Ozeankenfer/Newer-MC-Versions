@@ -1,9 +1,39 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Mud",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mud"
+    }
+  ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "mud_break",
+      "files": [
+        "mudbreak1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "mud_step",
+      "files": [
+        "mudstep4"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.newer_mc_versions.mud": "Mud",
+      "subtitles.mud_break": "",
+      "subtitles.mud_step": ""
+    }
   },
   "foldersRoot": {
     "name": "~",

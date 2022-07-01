@@ -26,6 +26,9 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.newermcversions.init.NewerMcVersionsModItems;
+import net.mcreator.newermcversions.init.NewerMcVersionsModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -42,6 +45,8 @@ public class NewerMcVersionsMod {
 	public NewerMcVersionsMod() {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+		NewerMcVersionsModBlocks.REGISTRY.register(bus);
+		NewerMcVersionsModItems.REGISTRY.register(bus);
 
 	}
 

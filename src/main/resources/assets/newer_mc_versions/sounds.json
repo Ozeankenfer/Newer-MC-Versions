@@ -1,0 +1,20 @@
+{
+  "mud_break": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "newer_mc_versions:mudbreak1",
+        "stream": false
+      }
+    ]
+  },
+  "mud_step": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "newer_mc_versions:mudstep4",
+        "stream": false
+      }
+    ]
+  }
+}
